@@ -1,0 +1,63 @@
+# ----------------------
+# Go build artifacts
+# ----------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# If you build locally to a 'bin' or 'dist' folder:
+bin/
+dist/
+
+# ----------------------
+# Go test coverage
+# ----------------------
+coverage.out
+*.coverprofile
+
+# ----------------------
+# Vendor folder (if you don't commit dependencies)
+# ----------------------
+vendor/
+
+# ----------------------
+# Common IDE/Editor settings
+# ----------------------
+# VSCode
+.vscode/
+.history/
+
+# Goland / IntelliJ
+.idea/
+
+# Vim swap files
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# Emacs backup files
+*~
+
+# ----------------------
+# macOS metadata
+# ----------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------
+# Windows thumbnail cache
+# ----------------------
+Thumbs.db
+
+# ----------------------
+# Custom exclusions
+# ----------------------
+wordlist.txt 
+
+
